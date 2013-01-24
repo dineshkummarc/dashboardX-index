@@ -7,4 +7,4 @@ Redesigning this page :-
 
 to the same design as that shown underneath
 
-![EC New PAGE JAN 2013](https://github.com/Dashboard-X/dashboardX-index/raw/master/screenshots/new-page-jan-2013-2.jpg)
+![EC New PAGE JAN 2013](https://github.com/Dashboard-X/dashboardX-index/raw/master/screenshots/tooltip.jpg)

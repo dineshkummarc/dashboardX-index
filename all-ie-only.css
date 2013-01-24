@@ -1,0 +1,55 @@
+.sky{
+
+	background-image:url('../images/sky_bg.jpg');
+	background-repeat:repeat-x;
+}
+
+.sky2{
+
+	background-image:url('../images/sky2_bg.jpg');
+	background-repeat:repeat-x;
+}
+
+.sky3{
+	background-image:url('../images/sky3_bg.jpg');
+	background-repeat:repeat-x;
+}
+
+
+div#description{
+	background-image:url('../images/03white_bg.png');
+	background-repeat:repeat;
+
+}
+
+.filter_style{
+	display:none;
+}
+
+.proj_caption{
+	color:#FFF;
+	background:url('../images/black_t.png') repeat-x;
+	font-size:12px;
+	font-weight:normal;
+	text-align:center;
+	position:absolute;
+    bottom:0px;
+    left: 0; /*--Stick the desc class to the bottom of our main image container--*/
+    width:193px;
+	padding:5px;
+	height:40px;
+    display: none;  /*--Hide description by default, if js is enabled, we will show this--*/
+
+}
+
+footer#footer
+{
+	/*background:#101113;*/
+	background:url('../images/grey_t.png') repeat;
+	overflow:hidden;
+	margin:0 auto;
+	width:100%;
+}
+
+
+.triangle-rt,.triangle-rb,.triangle-lb, .triangle-lt{ display:none;}

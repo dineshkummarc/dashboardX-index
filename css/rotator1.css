@@ -1,0 +1,179 @@
+
+
+/* Rotator Styles */
+		#wrapper {
+			width:100%;  <!-- for full view of the slider, no other contents -->
+			border-top:3px solid #92a5bc;
+			border-bottom:1px solid #92a5bc;
+			margin:0 60px auto auto;
+		}
+
+		#rotator {
+			background:#FFF;
+			color:#000;
+			position:relative;
+			padding-bottom:2.6em;
+			margin:0; 
+			font-size:16px;
+		}
+
+		/* Tabs */
+		ul.ui-tabs-nav, li.ui-tabs-nav-item, li.ui-tabs-nav-item a:link, li.ui-tabs-nav-item a:visited {
+			margin:0;
+			padding:0;
+			border:0;
+			outline:0;
+			line-height:0.1; <!-- the height of the tab older was 1.3 -->
+			text-decoration:none;
+			font-size:100%;
+			list-style:none;
+			float:left;
+			font-family:Arial, Helvetica, sans-serif;
+		}
+
+		ul.ui-tabs-nav {
+			position:absolute;
+			bottom:0px;
+			left:0;
+			z-index:1;
+			width:100%;
+			background:#FFF url(../images/index/uitabsbg.gif) repeat-x bottom right;
+			border-top:1px solid #FFF;
+		}
+
+		/* Non-Selected Tabs */
+		li.ui-tabs-nav-item a:link,
+		li.ui-tabs-nav-item a:visited {	
+			font-size:.8em;
+			font-weight:normal;
+			color:#999;
+			background:#FFF url(../images/index/uitabsbg.gif) repeat-x bottom left; 
+			border-left:1px solid #FFF;
+			border-right:1px solid #c5ced9;
+		}
+
+		/* Hovered Tab */
+		#rotator .ui-tabs-nav-item a:hover,
+		#rotator .ui-tabs-nav-item a:active {
+			background:#FFF url(../images/index/uiactivetabbg.gif) repeat-x bottom left;
+			color:#333;
+		}
+
+		#rotator .ui-tabs-nav-item a span {
+			float:left; 
+			padding:1em; 
+			cursor:pointer;
+		}
+
+		/* Active Tab */
+		#rotator .ui-tabs-selected a:link,
+		#rotator .ui-tabs-selected a:visited,
+		#rotator .ui-tabs-selected a:hover,
+		#rotator .ui-tabs-selected a:active {
+			background:#fff url(../images/index/uiactivetabbg.gif) repeat-x bottom left;
+			color:#333;
+		}
+
+		/* Content Panels */
+		#rotator .ui-tabs-panel {
+			font-family:Arial, Helvetica, sans-serif;
+			clear:left;
+			color:#000;
+			padding:40px 540px 15px 15px;
+			height:370px;
+		}
+
+		#rotator .ui-tabs-hide {
+			display:none;
+		}
+
+		#rotator h2 {
+			color:#E75D00;
+			font-weight:normal;
+			margin:0;
+			font-size:1.8em;
+			line-height:1.2em;
+		}
+
+		#rotator p {
+			font-size:1.1em;
+			margin:.5em 0;
+			color:#333;
+		}
+
+		#rotator .btn_get_started {
+			float:left;
+			height:30px;
+			width:99px;
+			text-indent:-9999em;
+			margin-right:7px; 
+			overflow:hidden; 
+			background:transparent url(../images/index/getstarted.gif) no-repeat
+		}
+
+		#rotator .btn_learn_more {
+			float:left;
+			height:26px;
+			font-size:.9em;
+		}
+
+		/* Background Images */
+		
+		#rotator #fragment-0 {
+			background:transparent url(../images/index/fragment-0.jpg) no-repeat;
+			padding:40px 15px 15px 540px;
+			background-size: 100% 100%;
+		}
+		
+		#rotator #fragment-1 {
+			background:transparent url(../images/index/fragment-1.jpg) no-repeat top right;
+			background-size: 100% 100%;
+		}
+
+		#rotator #fragment-2 {
+			background:transparent url(../images/index/fragment-2.jpg) no-repeat top right;
+			padding:40px 15px 15px 540px;
+			background-size: 100% 100%;
+		}
+
+		#rotator #fragment-3 {
+			background:transparent url(../images/index/fragment-3.jpg) no-repeat top left;
+			background-size: 100% 100%;
+		}
+
+		#rotator #fragment-4 {
+			background:transparent url(../images/index/fragment-4.jpg) no-repeat top left;
+			padding:40px 15px 15px 540px;
+			background-size: 100% 100%;
+		}
+		
+		#rotator #fragment-5 {
+			background:transparent url(../images/index/fragment-5.jpg) no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		#rotator #fragment-6 {
+			background:transparent url(../images/index/fragment-6.jpg) no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		#rotator #fragment-7 {
+			background:transparent url(../images/index/fragment-7.jpg) no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		#rotator #fragment-8 {
+			background:transparent url(../images/index/fragment-8.jpg) no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		#rotator #fragment-9 {
+			background:transparent url(../images/index/fragment-9.jpg) no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		#rotator #fragment-10 {
+			background:transparent url(../images/index/fragment-10.jpg) no-repeat;
+			padding:40px 15px 15px 540px;
+			background-size: 100% 100%;
+		}

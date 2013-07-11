@@ -1,0 +1,278 @@
+#hire-us-link {
+	position: fixed;
+	width: 120px;
+	height: 120px;
+	background-color: transparent;
+	background-image: url('Hire-Us-Button.png');
+	background-repeat:no-repeat;
+	z-index:10015;
+	cursor: pointer;
+}
+
+#hire-us-link.tl {
+	top:0;
+	left:0;
+	background-position: top left;
+}
+
+#hire-us-link.tr {
+	top:0;
+	right:0;
+	background-position: top right;
+}
+
+#hire-us-link.bl {
+	bottom:0;
+	left:0;
+	background-position: bottom left;
+}
+
+#hire-us-link.br {
+	bottom:0;
+	right:0;
+	background-position: bottom right;
+}
+
+#hire-us-bg {
+	background: #ccc;
+	background: rgba(200,200,200,.8);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: fixed;
+	z-index: 10016;
+	left: 0;
+	top: 0;
+	display: none;
+	overflow-y: auto;
+	cursor:pointer;
+}
+
+#hire-us-bg.visible {
+	display: block;
+}
+
+#hire-us-content {
+	font-size: 1.2em;
+	cursor:default;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height:1.4em;
+	margin-left:auto;
+	margin-right: auto;
+	width: 70%;
+	height:auto;
+	max-width: 650px;
+	overflow-y: auto;
+	background: #fff;
+	margin-bottom:60px;
+	border-radius: 0 0 10px 10px;
+	border: 1px solid #aaa;
+	border-color: rgba(255,255,255,1);
+	box-shadow: 0 0 10px #777;
+	background-image: linear-gradient(top, #fff 0%, #e6e6e6 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #e6e6e6));
+	background-image: -moz-linear-gradient(top,  #fff 0%, #e6e6e6 100%);
+	text-shadow: 1px 1px 2px #fff;
+}
+
+#hire-us-content h1 {
+	background-image: url("title.png");
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	font-size: 3em;
+	margin-top:0;
+	line-height:1em;
+	margin-bottom: .4em;
+	text-indent: -5000em;
+	height:171px !important;
+	float: none !important;
+}
+
+#hire-us-content h2 {
+	font-size:1.4em;
+	font-weight: bold;
+	margin: 1.2em 70px .5em;
+	background-image: url("examples.png");
+	background-repeat: no-repeat;
+	height:30px;
+	text-indent: -5000em;
+}
+
+#hire-us-content a:link {
+	color: #007bb1;
+}
+
+#hire-us-content a:visited,
+#hire-us-content a:active {
+	color: #e5005d;
+}
+
+#hire-us-content p {
+	font-size:inherit;
+	margin: 0 70px 1em;
+
+}
+
+#hire-us-content .hire-intro {
+	font-size:1.2em;
+	font-style:italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	line-height:1.3em;
+}
+
+#hire-us-content * {
+	transition: box-shadow .25s, color .25s, margin .25s, font-weight .25s, text-decoration .25s;
+	-moz-transition: box-shadow .25s, color .25s, margin .25s, font-weight .25s, text-decoration .25s;
+	-webkit-transition: box-shadow .25s, color .25s, margin .25s, font-weight .25s, text-decoration .25s;
+}
+
+#hire-us-content ul {
+	margin: 0;
+	padding:0;
+}
+
+#hire-us-content ul li {
+	list-style: none;
+	margin:0;
+	margin-bottom: -1px;
+	margin-right: -1px;
+	width: 50%;
+	float: left;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#hire-us-content ul li a {
+	position: relative;
+	display: block;
+	padding: 1em 1.5em;
+	border: 1px solid #ccc;
+	height: 1em;
+	line-height:1em;
+	background: #fff;
+	background-image: linear-gradient(top, #fff 0%, #f3f3f3 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #f3f3f3));
+	background-image: -moz-linear-gradient(top,  #fff 0%, #f3f3f3 100%);
+	text-decoration:none;
+}
+
+#hire-us-content ul li:nth-child(odd) a {
+	padding-left: 70px;
+	border-left: 0;
+}
+
+#hire-us-content ul li:nth-child(even) a {
+	border-right: 0;
+}
+
+#hire-us-content ul li a:HOVER {
+	background: #007bb1;
+	border-color: #007bb1;
+	position:relative;
+	z-index:1;
+	color:#fff;
+	text-shadow: 1px 1px 2px #005b91;
+	box-shadow: 0 0 5px #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#hire-us-content .hire-button {
+	display:block;
+	background-color: #b93700;
+	background-image: linear-gradient(top, #dd7403 0%, #b93700 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dd7403), color-stop(1, #b93700));
+	background-image: -moz-linear-gradient(top,  #dd7403 0%, #b93700 100%);
+	font-weight: bold;
+	border-radius: 60px;
+	color: #fff;
+	text-shadow: 1px 1px 2px #a92700;
+	margin-top:1.4em;
+	text-decoration:none;
+}
+
+#hire-us-content .hire-button .hire-button-inner {
+	text-decoration:none;
+	display: block;
+	padding: 15px 60px 15px 30px;
+	color: #fff;
+	background-image: url("arrow.png");
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+
+#hire-us-content .hire-button:HOVER {
+	text-shadow: 1px 1px 1px #004b81;
+	background-color: #007bb1;
+	background-image: none;
+	box-shadow: 0 0 20px #fff;
+}
+
+#hire-us-content .hire-button:active {
+	position: relative;
+	top: 2px;
+	text-shadow: none;
+	background-color: #e5005d;
+	background-image: none;	
+}
+
+#hire-us-content .hire-clear {
+	clear:both;
+	line-height: 0;
+	height: 0;
+}
+
+#hire-us-content .hire-contact {
+	display:block;
+	background: #d86600;
+	background-image: linear-gradient(top, #dc7100 0%, #d25a00 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dc7100), color-stop(1, #d25a00));
+	background-image: -moz-linear-gradient(top,  #dc7100 0%, #d25a00 100%);
+	padding: 30px 0;
+	border-top: 1px solid #fff;
+}
+
+#hire-us-content .hire-contact:HOVER {
+	background: #dc7100;
+	background-image: linear-gradient(top, #Ec8100 0%, #E26B00 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #Ec8100), color-stop(1, #E26a00));
+	background-image: -moz-linear-gradient(top,  #Ec8100 0%, #E26a00 100%);
+}
+
+#hire-us-content .hire-contact .hire-inner {
+	display: block;
+	background-image: url("email-3.png");
+	background-repeat: no-repeat;
+	height: 72px;
+	background-position: center center;
+}
+
+@media screen and (max-width: 800px) {
+	#hire-us-content .hire-contact .hire-inner {
+		background-size: 90%;
+	}
+}
+
+/* MOBILE UI */
+@media screen and (max-width: 700px) {
+	#hire-us-content {
+		width: 80%;
+	}
+	#hire-us-content h2 { margin-left: 6%; margin-right: 6%; }
+	#hire-us-content p { margin-left: 6%; margin-right: 6%;}
+	#hire-us-content .hire-contact { padding-top: 15px; }
+	#hire-us-content ul li:nth-child(odd) a { padding-left: 12%; }
+}
+
+@media screen and (max-width: 520px) {
+	#hire-us-content { margin-top: 45px; }
+	#hire-us-content h2 {
+		background-size: 100%;
+	}
+	#hire-us-content .hire-clear {
+		display:none;
+	}
+	#hire-us-content ul li { float:none; width: 100%; }
+	#hire-us-content ul li a { float:none; padding-left: 6% !important; border-left: 0; border-right: 0; }
+
+}

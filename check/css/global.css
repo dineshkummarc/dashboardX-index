@@ -1,0 +1,139 @@
+/* - - - - - - CSS Document - - - - - - - - -
+
+Title : Global style sheet for client-side web development standards
+Author : Cody Lindley 
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+/* ---------->>> CSS Hacks <<<---------------------------------------------------------------*/
+
+*{padding: 0; margin: 0;}
+
+/* ----- global default/initial styles ----- */
+body {background-color:#fff;}
+
+html, body {height:100%;}
+
+/* ----- base default font size, type, and line height ----- */
+html body{font-size:62.5%;font-family:Arial,sans-serif;color:#000;background:#fff}
+html>body{font-size:62.5%;font-family:Arial,sans-serif;color:#000;background:#fff}
+
+/* ----- add selectors here for font sizing ----- */
+p, table, ul, dl, #TB_window  {font-size: 1.1em; font-family:Arial,sans-serif;}
+
+
+/* ----- base links ----- */
+a:link {color: #CC6633;}
+a:visited {color: #CC6633;}
+a:hover {color: #999966;}
+a:active {color: #CC6633;}
+a:focus{color: #CC6633;}
+
+p {line-height:1.4em;margin:10px 0;}
+hr{margin:10px 0;color:#999999;}
+
+/*
+ul{
+	list-style: square;
+	margin:6px 0 6px 20px; 
+}
+
+ul li{
+padding:6px;
+}
+*/
+
+*/
+
+ul{
+	list-style: square;
+	margin:6px 0 6px 20px; 
+}
+
+ul li{
+/* padding:6px; */ 
+}
+
+#contentPad{
+margin:20px;
+}
+
+#TB_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:100;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+}
+
+#TB_window {
+	top: 0px;
+	left: 0px;
+	position: fixed;
+	_position: absolute;
+	background: #fff;
+	z-index: 102;
+	color:#000000;
+	display:none;
+	border: 4px solid #525252;
+}
+
+#TB_window img {
+	display:block;
+	margin: 15px 0 0 15px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #666;
+	border-left: 1px solid #666;
+}
+
+#TB_caption{
+	height:25px;
+	padding:10px 30px 10px 25px;
+	float:left;
+}
+
+#TB_closeWindow{
+	height:25px;
+	padding:10px 25px 10px 0;
+	float:right;
+}
+
+#TB_closeAjaxWindow{
+	padding:5px 10px 7px 0;
+	margin-bottom:1px;
+	text-align:right;
+	background-color:#e8e8e8;
+}
+
+#TB_ajaxContent{
+	padding:2px 15px 15px 15px;
+	overflow:auto;
+}
+
+#TB_load{
+	text-align: center;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	width: 100%;
+	overflow: visible;
+	visibility: visible;
+	display: block;
+	z-index:101;
+}
+
+#TB_loadContent  {
+	margin-left: -125px;
+	position: absolute;
+	top: -50px;
+	left: 50%;
+	width: 250px;
+	height: 100px;
+	visibility: visible;
+}

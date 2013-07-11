@@ -1,0 +1,171 @@
+
+
+div#slogan{
+	font-family:"Arial", Gadget, sans-serif;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:44px;
+	line-height:38px;
+	position: absolute;
+	margin:0 auto;
+	clear:both;
+	top:255px;
+}
+
+div#sloganDetail{
+	width:280px;
+	background-color:#000;
+	padding:3px;
+	color:#FFF;
+	font-size:16px;
+	line-height:20px;
+	-webkit-transition: all .45s ease-in-out;
+	-moz-transition: all .45s ease-in-out;
+	-o-transition: all .45s ease-in-out;
+	transition: all .45s ease-in-out;
+	border-radius:04px;
+}
+
+div#slogan-fragment0{
+	font-family:"Arial", Gadget, sans-serif;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:44px;
+	line-height:38px;
+	position: absolute;
+	margin:0 auto;
+	clear:both;
+	top:255px; /* make this on top as this is the first slide */
+}
+
+div#slogan-fragment1{
+	font-family:"Arial", Gadget, sans-serif;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:44px;
+	line-height:38px;
+	position: absolute;
+	margin:0 auto;
+	clear:both;
+	top:255px;
+}
+div#slogan-fragment2{
+	font-family:"Arial", Gadget, sans-serif;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:44px;
+	line-height:38px;
+	position: absolute;
+	margin:0 auto;
+	clear:both;
+	top:255px;
+}
+
+div#slogan-fragment3{
+	font-family:"Arial", Gadget, sans-serif;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:44px;
+	line-height:38px;
+	position: absolute;
+	margin:0 auto;
+	clear:both;
+	top:200px;
+}
+
+div#slogan-fragment4{
+	font-family:"Arial", Gadget, sans-serif;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:44px;
+	line-height:38px;
+	position: absolute;
+	margin:0 auto;
+	clear:both;
+	top:200px;
+}
+
+div#slogan-fragment5{
+	font-family:"Arial", Gadget, sans-serif;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:44px;
+	line-height:38px;
+	position: absolute;
+	margin:0 auto;
+	clear:both;
+	top:200px;
+}
+
+div#slogan-fragment6{
+	font-family:"Arial", Gadget, sans-serif;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:44px;
+	line-height:38px;
+	position: absolute;
+	margin:0 auto;
+	clear:both;
+	top:200px;
+}
+
+div#slogan-fragment7{
+	font-family:"Arial", Gadget, sans-serif;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:44px;
+	line-height:38px;
+	position: absolute;
+	margin:0 auto;
+	clear:both;
+	top:200px;
+}
+
+div#slogan-fragment8{
+	font-family:"Arial", Gadget, sans-serif;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:44px;
+	line-height:38px;
+	position: absolute;
+	margin:0 auto;
+	clear:both;
+	top:200px;
+}
+
+div#slogan-fragment9{
+	font-family:"Arial", Gadget, sans-serif;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:44px;
+	line-height:38px;
+	position: absolute;
+	margin:0 auto;
+	clear:both;
+	top:200px;
+}
+
+div#slogan-fragment10{
+	font-family:"Arial", Gadget, sans-serif;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight:bold;
+	font-size:44px;
+	line-height:38px;
+	position: absolute;
+	margin:0 auto;
+	clear:both;
+	top:200px;
+}
+

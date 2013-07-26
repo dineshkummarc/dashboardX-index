@@ -26,7 +26,7 @@ var HireUs = {};
 						"<li><a href=\"http://dashboardx.erlsindia.co.in/\" target=_blank>DashboardX</a></li>" +
 						"<li><a href=\"http://dsf.erlsindia.co.in/\" target=_blank>Denno Secqtinstien Foundation</a></li>" +
 						"<li><a href=\"http://shop.erlsindia.co.in/\" target=_blank>Shop from Erls</a></li>" +
-						"<li><a href=\"http://issues.erlsindia.co.in/\" target=_blank>file a Issue</a></li>" +
+						"<li><a href=\"http://issues.erlsindia.co.in/\" target=_blank>File a Issue</a></li>" +
 						"<li><a href=\"http://Jukebox.erlsindia.co.in/\" target=_blank>JukeBox Music</a></li>" +
 						"<li><a href=\"http://erlsians.erlsindia.co.in/\" target=_blank>Meet Erlsians</a></li>" +
 						"<li><a href=\"http://career.erlsindia.co.in/\" target=_blank>Erls Career</a></li>" +
@@ -34,9 +34,9 @@ var HireUs = {};
 						"<li><a href=\"http://alphabet.erlsindia.co.in/\" target=_blank>Alphabet Game</a></li>" +
 						"<li><a href=\"http://letter.erlsindia.co.in/\" target=_blank>letters Game</a></li>" +
 						
-						"<li><a href=\"http://erls.erlsindia.co.in/\" target=_blank>Coming Soon</a></li>" +
-						"<li><a href=\"http://hugme.erlsindia.co.in/\" target=_blank>Coming Soon</a></li>" +
-						"<li><a href=\"http://escalate.erlsindia.co.in/\" target=_blank>Coming Soon</a></li>" +
+						"<li><a href=\"http://erls.erlsindia.co.in/\" target=_blank>Erls Interior [Coming Soon]</a></li>" +
+						"<li><a href=\"http://hugme.erlsindia.co.in/\" target=_blank>HugMe [Coming Soon]</a></li>" +
+						"<li><a href=\"http://escalate.erlsindia.co.in/\" target=_blank>Escalate [Coming Soon]</a></li>" +
 					"<br class=\"hire-clear\"></ul>" +
 					"<a href=\"mailto:erlsindia@erlsindia.co.in\" target=\"_blank\" class=\"hire-contact\"><span class=\"hire-inner\"></span></a>",
 		

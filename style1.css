@@ -1,0 +1,46 @@
+
+
+/* BASIC RESET 
+ ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{margin:0; padding:0;}
+*/
+
+/* HTML ELEMENTS 
+body { background-color:#1b2940; font:62.5% Georgia,'Times New Roman',serif; letter-spacing:1; }
+*/
+/* COMMON CLASSES */
+.break { clear:both; }
+
+/* HEADER */
+.headerimg { background-position: center top; background-repeat: no-repeat; width:100%; height:600px; position:absolute; }
+
+/* NAVIGATION */
+#nav-outer { padding-top:11px; position:relative; background-image:url("image/headerbg.png"); }
+#navigation { margin:0 auto; background-image:url("image/logo.png"); background-position:top left; background-repeat:no-repeat; }
+
+/* MENU */
+#menu { position:relative; top:85px; }
+#menu ul { list-style:none; }
+#menu ul li { display:inline; font-variant:small-caps; font-size:12px; }
+#menu ul li a { color:white; text-decoration:none; font-weight:bold; padding-right:20px; }
+#menu ul li a:hover { text-decoration:underline; }
+
+/* HEADER TEXT */
+#headertxt { margin:0 auto; clear:both; top:74px; }
+#firstline { background-image:url("image/textbg.png"); color:#333; font-size:40px; padding:4px 13px 7px; float:left; display:block; }
+#secondline { background-image:url("image/textbg.png"); color:#CD2B3A; text-decoration:none; font-size:60px; padding:0 13px 10px; float:left; display:block; clear:both; }
+#secondline:hover { text-decoration:underline; color:#7F000C; }
+
+.pictured { background-color:#CC3333; color:#FFF; font-size:12px; padding:9px 16px; text-transform:uppercase; float:left; display:block; clear:both; margin-top:10px; }
+.pictured a { font-size:16px; font-style:italic; letter-spacing:0; text-transform:none; color:#FFF; text-decoration:none; }
+.pictured a:hover { text-decoration:underline; }
+
+/* CONTROLS */
+.btn { height:32px; width:32px; float:left; cursor:pointer; }
+#back { background-image:url("image/btn_back.png"); }
+#next { background-image:url("image/btn_next.png"); }
+#control { background-image:url("image/btn_pause.png"); }
+
+/* HEADER HAVIGATION */
+#headernav-outer { position:relative; top:400px; margin:0 auto; width:960px; }
+#headernav { padding-left:864px; }
+

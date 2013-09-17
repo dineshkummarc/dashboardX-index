@@ -1,5 +1,5 @@
 DashboardX-Index
-========
+================
 
 Redesigning this Page:-
 
@@ -33,7 +33,7 @@ EC New WEBSITE TOUR PAGE JAN 2013
 The Design for the DashboardX-index has been upgraded with the same design as shown underneath.
 
 EC New Page Design for 26 July 2013
----------------------------------
+-----------------------------------
 
 ![EC New PAGE JAN 2013](https://github.com/dineshkummarc/dashboardX-index/raw/master/screenshots/ec-new-26-july-2013.jpg)
 
